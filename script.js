@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
             //memeriksa apakah konversi berhasil
             if (!isNaN(inputInteger1)) {
             // Melakukan permintaan HTTP POST ke server Python
-            fetch('https://pkm-athero.streamlit.app/', { 
+            fetch('http://127.0.0.1:5000/api', { 
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
